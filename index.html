@@ -267,7 +267,11 @@
     </ol>
   </main>
   <footer>
-    © 2025 去甲肾上腺素健康科普 | 医学内容仅供参考 | 更新日期：2023年12月
+    © <span id="year"></span> 去甲肾上腺素健康科普 | 医学内容仅供参考 | 更新日期：2023年12月
   </footer>
+  <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
